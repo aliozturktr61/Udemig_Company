@@ -37,12 +37,19 @@ body {
   background-image: linear-gradient(to right, #800000, #16095d);
   padding: 5%;
   color: white;
+  position: relative;
 }
 #banner a {
   color: white;
   text-decoration: none;
 }
-
+.alt-dalga {
+  position: absolute;
+  bottom: 0;
+  left: 0;;
+  width: 100%;
+ 
+}
 .title {
   font-size: 40px;
   font-weight: 600;
